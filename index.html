@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Portofolio | Bootstrap v5.0!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top nav-header">
+      <div class="container fs-5">
+        <a href="#" class="navbar-brand">Fatih JR.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#about-me" class="nav-link">Tentang Saya</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pendidikan" class="nav-link">Pendidikan</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skill" class="nav-link">Keterampilan</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-me" class="nav-link">Kontak Saya</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- --------------------------------------------------------------
+    # Home - Hero - Jumbotron - Showcase
+    -------------------------------------------------------------- -->
+    <section class="d-flex align-items-center text-wrap text-center text-light" id="home">
+      <div class="container" data-aos="fade-up">
+        <div class="row align-items-center">
+          <div class="col text-xl-start order-2 order-lg-1">
+            <span
+              class="d-block d-lg-inline-block text-center text-lg-center p-2 fw-semibold tagline border border-secondary-subtle mb-4"
+              >✨Assalamualaikum, 👋!!!
+            </span>
+            <h1 class="display-3 pb-3">
+              Selamat Datang Di
+              <br />
+              <span class="text-warning border-bottom" id="typewriter"></span>
+            </h1>
+            <p class="lead fs-5">
+              Assalamualaikum Wr. Wb ✨, Selamat datang di website portofolio saya... 👋,
+              Di sini, Tertera informasi tentang saya, hobi dan minat saya, serta skill
+              saya. Silakan jelajahi website ini dan jangan ragu untuk menghubungi saya
+              jika memiliki pertanyaan atau hanya ingin berkolaborasi dengan saya 🙏🤙.
+            </p>
+          </div>
+          <div
+            class="col-xl-5 col-lg-6 order-1 order-lg-2 div-img"
+            data-aos="zoom-in"
+            data-aos-delay="150">
+            <img
+              src="./assets/img/ufo-glowy.svg"
+              alt="earth-home"
+              class="img-fluid mx-auto w-auto"
+              id="home-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------
+    # About Me
+    -------------------------------------------------------------- -->
+    <section class="d-flex text-light text-center" id="about-me">
+      <div class="container">
+        <div class="row pb-5 mb-0 mb-lg-5 pt-5 pt-sm-0 pt-lg-0" data-aos="fade-down">
+          <h1 class="display-5">Biografi <span class="text-warning"> Diriku. </span></h1>
+        </div>
+        <div class="row align-items-center" data-aos="fade-right">
+          <div class="col text-xl-start order-2 order-lg-1 pt-5 pt-lg-0">
+            <h1 class="pb-4">
+              Fatih Jihadi <span class="text-warning">Ramadhan</span> 🫡
+            </h1>
+            <h2 class="fs-5 pb-3">
+              Assalamualaikum 👋, yang kamu sedang lihat
+              <span class="text-warning" id="content-text-lg">di sebelah</span>
+              <span class="d-lg-none text-warning">di atas</span>
+              adalah Saya.
+            </h2>
+            <p class="lead fs-6">
+              Tepat pada tanggal
+              <span class="text-warning">25 September 2007</span>, aku pertama kali
+              membuka mataku ke dunia ini. Dan usiaku sekarang genap
+              <span class="text-warning">16 tahun</span> di tahun ini. Saat ini, aku
+              tengah menimba ilmu di <span class="text-warning">SMAN 2 Kuningan</span>,
+              dan kini berada di <span class="text-warning">kelas 10</span>. Saya memiliki
+              <span class="text-warning">ketertarikan</span> yang besar
+              <span class="text-warning">terhadap teknologi</span> baru, baik itu dalam
+              bentuk <span class="text-warning">hardware</span>,
+              <span class="text-warning">software</span>, atau
+              <span class="text-warning">informasi</span>
+              terbaru.
+            </p>
+          </div>
+          <div
+            class="col-xl-5 col-lg-6 order-1 order-lg-2"
+            data-aos="zoom-in"
+            data-aos-delay="150">
+            <img
+              src="./assets/img/Fatih-suit.JPG"
+              alt="Fatih-Me"
+              class="img-fluid mx-auto w-auto border border-warning border-5"
+              id="about-img" />
+          </div>
+        </div>
+        <div class="row pt-lg-5 mt-lg-3" data-aos="fade-up">
+          <p class="lead" id="ilangin-kecil">
+            <span class="text-warning">Saya</span> merasa
+            <span class="text-warning">senang</span> ketika bisa
+            <span class="text-warning">mencoba</span> dan
+            <span class="text-warning">menguji teknologi</span> baru, dan selalu berusaha
+            untuk mengikuti perkembangan terbaru di dunia teknologi.
+            <span class="text-warning">Ketertarikan</span> saya pada teknologi
+            <span class="text-warning">tidak hanya</span> berasal dari
+            <span class="text-warning">minta pribadi</span>, tetapi juga dari
+            <span class="text-warning">keinginan untuk memperbaiki</span> dan
+            <span class="text-warning">meningkatkan</span> dunia sekitar kita melalui
+            <span class="text-warning">inovasi teknologi yang baru dan kreatif</span>.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------------------------------------------
+    # Foto + Video Project Masukin Ke About Me Section Aja
+    -------------------------------------------------------------- -->
+
+    <!-- --------------------------------------------------------------
+    # Pendidikan
+    -------------------------------------------------------------- -->
+    <section class="d-flex align-items-center text-light text-center" id="pendidikan">
+      <div class="container">
+        <div class="row pt-5 pt-sm-0 pt-lg-0" data-aos="fade-down">
+          <h1 class="display-3">
+            Riwayat <span class="text-warning"> Pendidikan. </span>
+          </h1>
+        </div>
+        <div class="row align-items-center text-light text-center pb-5 mb-5">
+          <div class="col" data-aos="zoom-in">
+            <div
+              id="pendidikan-slide"
+              class="carousel slide p-lg-5 m-lg-5 pt-5"
+              data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#pendidikan-slide"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"></button>
+                <button
+                  type="button"
+                  data-bs-target="#pendidikan-slide"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button
+                  type="button"
+                  data-bs-target="#pendidikan-slide"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./assets/img/SD.png"
+                    class="d-block w-100"
+                    alt="SD-nya Fatih" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>SDIT HARUM Jakarta Utara</h5>
+                    <p>Selama masa SD, saya bersekolah di SDIT Harum Jakarta.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/img/SMP.jpg"
+                    class="d-block w-100"
+                    alt="SMP-nya Fatih" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>SMP Negeri 30 Jakarta</h5>
+                    <p>Selama masa SMP, saya bersekolah di SMPN 30 Jakarta.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/img/SMA.jpg"
+                    class="d-block w-100"
+                    alt="SMA-nya Fatih" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>SMAN 2 Kuningan</h5>
+                    <p>Dan saya saat ini bersekolah di SMAN 2 Kuningan.</p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#pendidikan-slide"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#pendidikan-slide"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row border-top border-light" data-aos="fade-down">
+          <div class="col-lg-4">
+            <ul class="ps-0">
+              <li class="list-inline-item">
+                <div class="px-4">
+                  <div class="event-date badge bg-info" id="event-singkat">
+                    2013 - 2019
+                  </div>
+                  <h5 class="pt-2">Jenjang <span class="text-warning">SD</span></h5>
+                  <p class="text-secondary">
+                    Selama 6 tahun di masa SD, saya bersekolah di
+                    <span class="text-warning">SDIT harum</span> yang berlokasi di jakarta
+                    dari tahun <span class="text-warning">2013 s/d 2019</span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul class="ps-0">
+              <li class="list-inline-item">
+                <div class="px-4">
+                  <div class="event-date badge bg-success" id="event-singkat">
+                    2019 - 2022
+                  </div>
+                  <h5 class="pt-2">Jenjang <span class="text-warning">SMP</span></h5>
+                  <p class="text-secondary">
+                    Selama 3 tahun di masa SMP, saya bersekolah di
+                    <span class="text-warning">SMPN 30 Jakarta</span> dari tahun
+                    <span class="text-warning">2019 s/d 2022</span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul class="ps-0">
+              <li class="list-inline-item">
+                <div class="px-4">
+                  <div class="event-date badge bg-danger" id="event-lama">
+                    2022 - Hingga Saat ini
+                  </div>
+                  <h5 class="pt-2">jenjang <span class="text-warning">SMA</span></h5>
+                  <p class="text-secondary">
+                    Selama 3 tahun di masa SMP, saya bersekolah di
+                    <span class="text-warning">SMAN 2 Kuningan</span> dari tahun
+                    <span class="text-warning">2022 hingga saat ini</span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------
+    # Skill
+    -------------------------------------------------------------- -->
+    <section class="d-flex align-items-center text-light text-center" id="skill">
+      <div class="container" data-aos="fade-up">
+        <div class="row pb-5 mb-0 mb-lg-4">
+          <h1 class="display-3 mb-5">
+            Keterampilan <span class="text-warning">Saya</span>
+          </h1>
+          <p class="lead">
+            Saya memiliki
+            <span class="text-warning">keterampilan</span> yang terus saya
+            <span class="text-warning">asah</span> dimana di antaranya adalah
+            <span class="text-warning">keterampilan</span> sebagai
+            <span class="text-warning">Front-End Developer</span> untuk menciptakan
+            tampilan website yang menarik,
+            <span class="text-warning">Back-End Developer</span> untuk memastikan service
+            dengan lancar, <span class="text-warning">Desain Grafis</span> untuk
+            memberikan visual yang menarik, dan
+            <span class="text-warning">Video Editing</span> untuk membuat video yang
+            mengesankan.
+          </p>
+        </div>
+        <div class="row align-items-center mb-0 mb-lg-4">
+          <div class="col-lg-6 mb-4 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="bg-dark" id="skill-box">
+              <i class="bi bi-code-square fs-1"></i>
+              <h2 class="mt-1 mb-2 fs-3">Front-End Developer</h2>
+              <p class="text-warning fs-6 fw-lighter">Mengcoding Tampilan</p>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="bg-dark" id="skill-box">
+              <i class="bi bi-code-slash fs-1"></i>
+              <h2 class="mt-1 mb-2 fs-3">Back-End Developer</h2>
+              <p class="text-warning fs-6 fw-lighter">Mengcoding Service</p>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="bg-dark" id="skill-box">
+              <i class="bi bi-bounding-box fs-1"></i>
+              <h2 class="mt-1 mb-2 fs-3">Desain Grafis</h2>
+              <p class="text-warning fs-6 fw-lighter">Mengdesain visual</p>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="bg-dark" id="skill-box">
+              <i class="bi bi-camera fs-1"></i>
+              <h2 class="mt-1 mb-2 fs-3">Video Editing</h2>
+              <p class="text-warning fs-6 fw-lighter">Mengedit video</p>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5" data-aos="fade-up" data-aos-duration="1000">
+          <h1 id="quotes" class="fs-3">
+            “ <span class="text-warning">Percayalah</span> kepada
+            <span class="text-warning">Allah</span> ketika segala sesuatu
+            <span class="text-warning">tidak berjalan</span> seperti yang kamu
+            <span class="text-warning">inginkan</span>. Sesungguhnya
+            <span class="text-warning">Allah</span> telah
+            <span class="text-warning">merencanakan</span> sesuatu yang
+            <span class="text-warning">lebih baik</span>
+            untukmu. ”
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------
+    # Contact Me
+    -------------------------------------------------------------- -->
+    <section class="d-flex align-items-center text-light text-center" id="contact-me">
+      <div class="container" data-aos="fade-up">
+        <div class="row pb-5 mb-0 mb-lg-4">
+          <h1 class="display-3 mb-5">Kontak <span class="text-warning">Saya</span></h1>
+          <p class="lead">
+            Apabila kamu <span class="text-warning">ingin menghubungi saya</span>, jangan
+            ragu untuk <span class="text-warning">menggunakan</span> salah satu dari
+            <span class="text-warning">kontak-kontak berikut</span>. Saya selalu siap
+            untuk menjawab pertanyaan, mengobrol, atau bahkan sekadar menyapa teman baru!
+          </p>
+        </div>
+        <div class="row align-items-center mb-4">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="bg-dark" id="info-box">
+              <i class="bi bi-geo-alt-fill fs-2"></i>
+              <h2 class="mt-1 mb-2 fs-3">Alamat Saya</h2>
+              <p class="text-warning fs-6 fw-lighter">
+                Kuningan, Awirarangan, Jawa Barat, Indonesia
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div class="bg-dark shadow" id="info-box">
+              <i class="bi bi-envelope-at-fill fs-2"></i>
+              <h2 class="mt-1 mb-2 fs-3">Email Saya</h2>
+              <p class="text-warning fs-6 fs-6 fw-lighter">fatihjrharum@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="bg-dark shadow" id="info-box">
+              <i class="bi bi-telephone-outbound-fill fs-2"></i>
+              <h2 class="mt-1 mb-2 fs-3">Call Saya</h2>
+              <p class="text-warning fs-6 fw-lighter">+62 813-8251-9681</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 pb-2 pb-lg-0">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1980.0886201608407!2d108.4916336!3d-6.988393!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f143b5d247ecd%3A0x3ff023e26316a361!2sBalcony%20View%20Residence!5e0!3m2!1sid!2sid!4v1678191969105!5m2!1sid!2sid"
+              width="100%"
+              height="384"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-dark shadow" id="info-box">
+              <form id="contact-form" class="py-0">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control bg-dark text-light"
+                      id="name"
+                      placeholder="Your Name"
+                      required="" />
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input
+                      type="email"
+                      class="form-control bg-dark"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      required="" />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input
+                    type="text"
+                    class="form-control bg-dark text-light"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required="" />
+                </div>
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control bg-dark text-light"
+                    name="message"
+                    rows="5"
+                    placeholder="Message"
+                    required=""></textarea>
+                </div>
+                <div class="text-center pt-4">
+                  <button type="submit" class="btn btn-primary px-3 py-2">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------
+    # Footer
+    -------------------------------------------------------------- -->
+    <section class="text-center text-light p-3">
+      <div class="container">
+        <div class="copyright-wrap d-md-flex py-4">
+          <div class="me-md-auto text-center text-md-start">
+            <div class="copyright">
+              © Copyright <strong><span>Galaxy Nawasena</span></strong
+              >. All Rights Reserved
+            </div>
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
+              Designed with <i class="bi bi-suit-heart-fill"></i> by
+              <a
+                href="https://www.instagram.com/fatihjihadi/"
+                class="text-decoration-none text-warning"
+                >Fatih Jihadi Ramadhan</a
+              >
+            </div>
+          </div>
+          <div
+            class="d-md-flex align-items-center text-center text-md-right pt-md-0 pt-3">
+            <a href="#"
+              ><i class="bi bi-instagram text-decoration-none text-warning px-1 fs-5"></i
+            ></a>
+            <a href="#"
+              ><i class="bi bi-facebook text-decoration-none text-warning px-1 fs-5"></i
+            ></a>
+            <a href="#"
+              ><i class="bi bi-instagram text-decoration-none text-warning px-1 fs-5"></i
+            ></a>
+            <a href="#"
+              ><i class="bi bi-skype text-decoration-none text-warning px-1 fs-5"></i
+            ></a>
+            <a href="#"
+              ><i class="bi bi-linkedin text-decoration-none text-warning px-1 fs-5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="back-to-top fixed-bottom text-end pe-3 pb-3">
+      <a href="#" class="text-light text-decoration-none rounded bg-warning fs-2 px-1">
+        <i class="bi bi-arrow-up-short"></i>
+      </a>
+    </div>
+    <div id="preloader"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

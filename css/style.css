@@ -1,0 +1,349 @@
+@font-face {
+  font-family: Centra;
+  src: url(../font/CentraNo2-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Centra;
+  src: url(../font/CentraNo2-Medium.ttf);
+  font-weight: 500;
+}
+
+body {
+  /* height: 100vh;
+  position: relative; */
+  /* height: 5000px; */
+  background-color: #121212 !important;
+  font-family: "Centra", sans-serif !important;
+}
+
+section {
+  padding: 100px 0px;
+  overflow: hidden;
+}
+
+#home {
+  background-image: url(../assets/img/Space-rainbow-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100vh;
+  /* height: auto; */
+  position: relative;
+  padding-top: 7rem;
+}
+#home .container {
+  padding-top: 84px;
+}
+
+#home #home-img {
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+.tagline {
+  /* font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px; */
+  background: linear-gradient(90.21deg, #aa367c80, #4a2fbd80);
+}
+
+#typewriter {
+  border-right: 5px solid #a4a2a2;
+  animation: cursor 0.6s step-end infinite alternate;
+  padding-right: 10px;
+  /* box-shadow: 0 4px #a4a2a2; */
+}
+
+/*--------------------------------------------------------------
+# About ME
+--------------------------------------------------------------*/
+
+#about-me {
+  /* height: 100vh;
+  position: relative;
+  padding-top: 0rem;
+  height: auto; */
+  padding-bottom: 200px;
+}
+
+/*--------------------------------------------------------------
+# Pendidikan
+--------------------------------------------------------------*/
+
+#pendidikan {
+  background-image: url(../assets/img/pendidikan-bg-1svg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* height: 100vh; */
+  position: relative;
+  overflow: hidden;
+}
+/*--------------------------------------------------------------
+# Skill
+--------------------------------------------------------------*/
+
+#skill-box {
+  padding: 70px 20px 80px 20px;
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+
+#contact-me {
+  background-image: url(../assets/img/contact-me-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* height: 100vh; */
+  position: relative;
+  overflow: hidden;
+}
+#info-box {
+  padding: 30px 0;
+}
+/* #info-box i {
+  font-size: 32px;
+  color: #5846f9;
+  border-radius: 50%;
+  padding: 111px;
+} */
+
+#contact-form {
+  padding: 30px;
+  padding-bottom: 0;
+}
+#contact-form input {
+  padding: 10px 15px;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.nav-header {
+  height: 80px;
+  transition: all 0.7s;
+}
+.nav-header--scrolled {
+  background: #5858ca;
+  transition: all 0.7s;
+  height: 60px;
+}
+/*--------------------------------------------------------------
+# Back To Top Arrow
+--------------------------------------------------------------*/
+
+.back-to-top {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s;
+}
+.back-to-top--scrolled {
+  visibility: visible;
+  opacity: 1;
+  transition: all 1s;
+}
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  /* overflow: hidden; */
+  background: #121212;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #4736e1;
+  border-top-color: #e7e4fe;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* @media (min-width: 1200px) {
+  .tagline {
+    font-size: px;
+  }
+} */
+
+@media (min-width: 991.3px) and (max-width: 1200px) {
+  /* #home p {
+    font-size: 14px;
+    padding-bottom: 5rem;
+  } */
+  #home h1 {
+    font-size: 3rem;
+  }
+
+  /* #home img {
+    padding-bottom: 2rem;
+  } */
+}
+@media (min-width: 770px) and (max-width: 991.3px) {
+  #home img,
+  #about-me img {
+    width: 75% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  /* body {
+    height: auto;
+  } */
+  #home {
+    height: auto;
+  }
+  #content-text-lg {
+    display: none;
+  }
+  #about-me #ilangin-kecil {
+    display: none;
+  }
+}
+
+/* @media (max-width: 792px) {
+} */
+
+@media (min-width: 600px) and (max-width: 991.3px) {
+  #home p,
+  #about-me p {
+    font-size: 14px !important;
+  }
+  #home h1,
+  #about-me h1 {
+    font-size: 40px;
+  }
+  /* #home #home-img {
+    width: 50% !important;
+    animation: none;
+    padding-bottom: 2rem;
+  } */
+}
+
+@media (max-width: 991px) {
+  #home #home-img {
+    text-align: center;
+    width: 50%;
+    animation: none;
+  }
+  #skill #quotes {
+    font-size: 30px;
+  }
+}
+@media (max-width: 600px) {
+  #home h1,
+  #about-me h1,
+  #pendidikan h1 {
+    font-size: 30px;
+  }
+  #home p,
+  #about-me p,
+  #contact-me p {
+    font-size: 14px !important;
+  }
+  #home {
+    padding-top: 0;
+  }
+  /* #home #home-img {
+    animation: none;
+    width: 75% !important;
+    padding-bottom: 2rem;
+  } */
+}
+@media (max-width: 260px) {
+  #home h1,
+  #about-me h1,
+  #skill #quotes {
+    font-size: 20px;
+  }
+  #home p,
+  #about-me p,
+  #pendidikan p {
+    font-size: 7px !important;
+  }
+  .tagline {
+    font-size: 8px;
+  }
+  #info-box h2 {
+    font-size: 15px !important;
+  }
+  #info-box p {
+    font-size: 8px !important;
+  }
+}
+
+.list-inline-item {
+  display: block;
+  position: relative;
+  padding-top: 70px;
+}
+
+.list-inline-item::before {
+  content: "";
+  position: absolute;
+  height: 36px;
+  border-right: 2px dashed #dee2e6;
+  top: 0;
+}
+
+#event-singkat {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  right: 0;
+  width: 105px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  padding-top: 8px;
+}
+#event-lama {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  right: 0;
+  width: 190px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  padding-top: 8px;
+}
+
+/* * {
+  outline: 2px solid white;
+} */
