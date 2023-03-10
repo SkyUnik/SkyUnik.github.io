@@ -140,6 +140,9 @@ section {
   opacity: 0;
   transition: all 0.4s;
 }
+.back-to-top a {
+  pointer-events: auto !important;
+}
 .back-to-top--scrolled {
   visibility: visible;
   opacity: 1;
